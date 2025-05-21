@@ -21,8 +21,7 @@ function App() {
 
   return (
     <main>
-      <div style={{position: "fixed", top: "2%", left: "2%"}}><img src="logo_scalas.fw.png" width="50%" height="50%" /></div>
-          <h1><span style={{fontSize: "150%", color: "#000000"}}>Nosso site está em construção</span></h1>
+      <h1>Nosso site está em construção</h1>
     </main>
   );
 }
