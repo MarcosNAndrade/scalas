@@ -20,7 +20,7 @@ function App() {
   return (
     <main>
       <div>Teste de letras</div>
-      <h1><style={{fontSize: "150%", color: "#FF8000"}}>S</style> <style={{fontSize: "120%", color: "#000000"}}>cala</style> <style={{fontSize: "150%", color: "#FF8000"}}>S</style></h1>
+      <h1><span style={{fontSize: "150%", color: "#FF8000"}}>S</span><span style={{fontSize: "120%", color: "#000000"}}>cala</span><span style={{fontSize: "150%", color: "#FF8000"}}>S</span></h1>
       <button onClick={createTodo}>+ OK</button>
       <ul>
         {todos.map((todo) => (
