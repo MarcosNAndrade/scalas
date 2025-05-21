@@ -20,7 +20,7 @@ function App() {
   return (
     <main>
       <div>Teste de letras</div>
-      <h1>ScalaS</h1>
+      <h1><style={{fontSize: "150%", color: "#FF8000"}}>S</style> <style={{fontSize: "120%", color: "#000000"}}>cala</style> <style={{fontSize: "150%", color: "#FF8000"}}>S</style></h1>
       <button onClick={createTodo}>+ OK</button>
       <ul>
         {todos.map((todo) => (
