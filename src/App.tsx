@@ -21,7 +21,7 @@ function App() {
     <main>
       <span style="font-size: 140%">S</span><span style="font-size: 100%">cala</span><span style="font-size: 140%">S</span>
       <h1>ScalaS</h1>
-      <button onClick={createTodo}>+ new</button>
+      <button onClick={createTodo}>+ OK</button>
       <ul>
         {todos.map((todo) => (
           <li key={todo.id}>{todo.content}</li>
