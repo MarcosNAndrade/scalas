@@ -21,7 +21,19 @@ function App() {
 
   return (
     <main>
-      <h1>Nosso site está em construção</h1>
+      <div style={{position: "fixed", top: "2%", left: "2%"}}><img src="logo_scalas.fw.png" width="50%" height="50%" /></div>
+      <div style={{position: "absolute", top: "40%", left: "30%"}}>
+        <center>
+          <h1><span style={{fontSize: "150%", color: "#000000"}}>Nosso site está em construção</span></h1>
+        </center>
+      </div>
+      <div style={{position: "absolute", top: "80%", left: "35%"}}>
+        <center>
+          <span style={{fontSize: "70%", color: "#000000"}}>Desenvolvido por ScalaS Tecnologia e Informática Ltda.</span>
+          <a href="https://docs.amplify.aws/react/start/quickstart/#make-frontend-updates"><span style={{fontSize: "70%", color: "#777777"}}>AWS Amplify</span></a>
+          <span style={{fontSize: "70%", color: "#000000"}}>2025 - Todos os direitos reservados</span>
+        </center>
+      </div>
     </main>
   );
 }
