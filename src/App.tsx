@@ -29,9 +29,9 @@ function App() {
       </ul>
       <div syle={{position: "fixed", top: "70%",}}>
         <center>
-          <span style={{fontSixe: "70%", color: "#000000", }}>Desenvolvido por ScalaS Tecnologia e Informática Ltda.</span>
-          <a href="https://docs.amplify.aws/react/start/quickstart/#make-frontend-updates"><span style={{fontSixe: "70%", color: "#000000", }}>AWS Amplify</span></a>
-          <span style={{fontSixe: "70%", color: "#000000", }}>2025 - Todos os direitos reservados</span>
+          <span style={{fontSize: "70%", color: "#000000", }}>Desenvolvido por ScalaS Tecnologia e Informática Ltda.</span>
+          <a href="https://docs.amplify.aws/react/start/quickstart/#make-frontend-updates"><span style={{fontSize: "70%", color: "#777777", }}>AWS Amplify</span></a>
+          <span style={{fontSize: "70%", color: "#000000", }}>2025 - Todos os direitos reservados</span>
         </center>
       </div>
     </main>
