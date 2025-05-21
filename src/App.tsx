@@ -19,20 +19,20 @@ function App() {
 
   return (
     <main>
-      <div style={{position: "fixed", top: "2%", left: "2%", }}><img src="logo_scalas.fw.png" width="100%" height="100%" /></div>
-      <h1><span style={{fontSize: "150%", color: "#FF8000"}}>S</span><span style={{fontSize: "120%", color: "#000000"}}>cala</span><span style={{fontSize: "150%", color: "#FF8000"}}>S</span></h1>
-      <button onClick={createTodo}>+ OK</button>
+      <div style={{position: "fixed", top: "2%", left: "2%", }}><img src="logo_scalas.fw.png" width="50%" height="50%" /></div>
+      <h1><span style={{fontSize: "150%", color: "#000000"}}>Nosso site está em construção</span></h1>
+      {/* <button onClick={createTodo}>+ OK</button> */}
       <ul>
         {todos.map((todo) => (
           <li key={todo.id}>{todo.content}</li>
         ))}
       </ul>
-      <div>
-        🥳 Nosso site está em construção.
-        <br />
-        <a href="https://docs.amplify.aws/react/start/quickstart/#make-frontend-updates">
-          Estamos na versão 1.0.0.
-        </a>
+      <div syle={{position: "fixed", top: "70%",}}>
+        <center>
+          <span style={{fontSixe: "70%", color: "#000000", }}>Desenvolvido por ScalaS Tecnologia e Informática Ltda.</span>
+          <a href="https://docs.amplify.aws/react/start/quickstart/#make-frontend-updates"><span style={{fontSixe: "70%", color: "#000000", }}>AWS Amplify</span></a>
+          <span style={{fontSixe: "70%", color: "#000000", }}>2025 - Todos os direitos reservados</span>
+        </center>
       </div>
     </main>
   );
