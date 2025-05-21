@@ -19,7 +19,8 @@ function App() {
 
   return (
     <main>
-      <h1>S</h1><h2>cala</h2><h1>S</h1>
+      <span style="font-size: 140%">S</span><span style="font-size: 100%">cala</span><span style="font-size: 140%">S</span>
+      <h1>ScalaS</h1>
       <button onClick={createTodo}>+ new</button>
       <ul>
         {todos.map((todo) => (
