@@ -19,7 +19,7 @@ function App() {
 
   return (
     <main>
-      <h1>My todos Atualizado</h1>
+      <h1>S</h1><h2>cala</h2><h1>S</h1>
       <button onClick={createTodo}>+ new</button>
       <ul>
         {todos.map((todo) => (
