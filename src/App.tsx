@@ -19,7 +19,7 @@ function App() {
 
   return (
     <main>
-      <span style={"fontSize: 140%"}>S</span><span style={"fontSize: 100%"}>cala</span><span style={"fontSize: 140%"}>S</span>
+      <div>Teste de letras</div>
       <h1>ScalaS</h1>
       <button onClick={createTodo}>+ OK</button>
       <ul>
