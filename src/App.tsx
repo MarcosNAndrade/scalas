@@ -27,10 +27,10 @@ function App() {
         ))}
       </ul>
       <div>
-        🥳 App successfully hosted. Try creating a new todo.
+        🥳 Nosso site está em construção.
         <br />
         <a href="https://docs.amplify.aws/react/start/quickstart/#make-frontend-updates">
-          Review next step of this tutorial.
+          Estamos na versão 1.0.0.
         </a>
       </div>
     </main>
