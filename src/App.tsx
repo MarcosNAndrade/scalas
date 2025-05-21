@@ -19,7 +19,7 @@ function App() {
 
   return (
     <main>
-      <div style={{position: "fixed", top: "2%", left: "2%", }}><img src="logo_scalas.fw.png" width="100%" height+"100%" /></div>
+      <div style={{position: "fixed", top: "2%", left: "2%", }}><img src="logo_scalas.fw.png" width="100%" height="100%" /></div>
       <h1><span style={{fontSize: "150%", color: "#FF8000"}}>S</span><span style={{fontSize: "120%", color: "#000000"}}>cala</span><span style={{fontSize: "150%", color: "#FF8000"}}>S</span></h1>
       <button onClick={createTodo}>+ OK</button>
       <ul>
