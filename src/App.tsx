@@ -20,7 +20,11 @@ function App() {
   return (
     <main>
       <div style={{position: "fixed", top: "2%" left: "2%"}}><img src="logo_scalas.fw.png" width="50%" height="50%" /></div>
-      <div style={{position: "fixed", top: "30%"}}><h1><span style={{fontSize: "150%", color: "#000000"}}>Nosso site está em construção</span></h1></div>
+      <div style={{position: "fixed", top: "30%"}}>
+        <Center>
+          <h1><span style={{fontSize: "150%", color: "#000000"}}>Nosso site está em construção</span></h1>
+        </Center>
+      </div>
       <div style={{position: "fixed", top: "70%"}}>
         <center>
           <span style={{fontSize: "70%", color: "#000000"}}>Desenvolvido por ScalaS Tecnologia e Informática Ltda.</span>
