@@ -21,12 +21,6 @@ function App() {
     <main>
       <div style={{position: "fixed", top: "2%", left: "2%", }}><img src="logo_scalas.fw.png" width="50%" height="50%" /></div>
       <h1><span style={{fontSize: "150%", color: "#000000"}}>Nosso site está em construção</span></h1>
-      {/* <button onClick={createTodo}>+ OK</button> */}
-      <ul>
-        {todos.map((todo) => (
-          <li key={todo.id}>{todo.content}</li>
-        ))}
-      </ul>
       <div syle={{position: "fixed", top: "70%",}}>
         <center>
           <span style={{fontSize: "70%", color: "#000000", }}>Desenvolvido por ScalaS Tecnologia e Informática Ltda.</span>
